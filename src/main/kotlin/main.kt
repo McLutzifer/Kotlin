@@ -13,4 +13,9 @@ fun main(args: Array<String>) {
 
     x = 89
     println(x)
+
+    var num1 = 9
+    var num2 = 4
+
+    println(num1/num2)
 }
