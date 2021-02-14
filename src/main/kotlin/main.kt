@@ -7,4 +7,10 @@ fun main(args: Array<String>) {
     println("What's your name?")
     val name = readLine()
     println("Hello $name")
+
+    var x: Int = 90
+    println(x)
+
+    x = 89
+    println(x)
 }
