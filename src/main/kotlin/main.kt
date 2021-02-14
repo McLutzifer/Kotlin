@@ -1,8 +1,8 @@
 fun main(args: Array<String>) {
     println("Hello World!")
 
-    var num: Int = 42
-    println(num)
+    var num0: Int = 42
+    println(num0)
 
     println("What's your name?")
     val name = readLine()
@@ -18,4 +18,8 @@ fun main(args: Array<String>) {
     var num2 = 4
 
     println(num1/num2)
+
+    var num = 4
+    num *= 5
+    println(num)
 }
