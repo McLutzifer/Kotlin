@@ -24,4 +24,9 @@ fun main(args: Array<String>) {
     println(num)
     num++
     println(num)
+
+    println("Insert a and b")
+    var a = readLine()!!.toInt()
+    var b = readLine()!!.toInt()
+    println(a+b)
 }
