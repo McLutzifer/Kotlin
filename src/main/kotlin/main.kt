@@ -32,7 +32,7 @@ fun main(args: Array<String>) {
 
     //conditional expressions
     val number = 7
-    val resul= if (num > 0) "Positive"
+    val result= if (number > 0) "Positive"
                 else "Negative"
     println(result)
 }
