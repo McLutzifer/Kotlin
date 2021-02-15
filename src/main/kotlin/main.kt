@@ -36,6 +36,7 @@ fun main(args: Array<String>) {
                 else "Negative"
     println(result)
 
+    //when
     val res = when {
         number > 0 -> "Positive"
         number < 0 -> "Negative"
