@@ -43,4 +43,10 @@ fun main(args: Array<String>) {
         else -> "Zero"
     }
     println(res)
+
+    //combining conditions
+    var nu = 42
+    if (nu >= 18 && nu <= 60) {
+        println("Yes")
+    }
 }
