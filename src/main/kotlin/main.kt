@@ -29,4 +29,10 @@ fun main(args: Array<String>) {
     var a = readLine()!!.toInt()
     var b = readLine()!!.toInt()
     println(a+b)
+
+    //conditional expressions
+    val number = 7
+    val resul= if (num > 0) "Positive"
+                else "Negative"
+    println(result)
 }
