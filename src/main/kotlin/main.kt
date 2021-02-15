@@ -31,8 +31,15 @@ fun main(args: Array<String>) {
     println(a+b)
 
     //conditional expressions
-    val number = 7
+    val number = -7
     val result= if (number > 0) "Positive"
                 else "Negative"
     println(result)
+
+    val res = when {
+        number > 0 -> "Positive"
+        number < 0 -> "Negative"
+        else -> "Zero"
+    }
+    println(res)
 }
