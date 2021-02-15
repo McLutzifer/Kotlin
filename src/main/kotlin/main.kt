@@ -1,14 +1,14 @@
 fun main(args: Array<String>) {
     println("Hello World!")
 
-    var num0: Int = 42
+    val num0: Int = 42
     println(num0)
 
     println("What's your name?")
     val name = readLine()
     println("Hello $name")
 
-    val x: Int = 90
+    var x: Int = 90
     println(x)
 
     x = 89
