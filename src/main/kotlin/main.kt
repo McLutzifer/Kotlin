@@ -8,14 +8,14 @@ fun main(args: Array<String>) {
     val name = readLine()
     println("Hello $name")
 
-    var x: Int = 90
+    val x: Int = 90
     println(x)
 
     x = 89
     println(x)
 
-    var num1 = 9
-    var num2 = 4
+    val num1 = 9
+    val num2 = 4
 
     println(num1/num2)
 
